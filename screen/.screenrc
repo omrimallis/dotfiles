@@ -1,0 +1,27 @@
+# Save all running programs on detach
+autodetach on
+
+# Disable startup message
+startup_message off
+
+# Number of lines in scrollback buffer
+defscrollback 4096
+
+caption splitonly "%3n %t%? @%u%?%? [%h]%?%=%c"
+
+# Allow editors to restore display on exit
+altscreen on
+
+# Don't blink the screen
+vbell off
+
+# Window list at the bottom
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
+
+# Default shell is bash
+shell bash
+
+termcapinfo xterm* ti@:te@
+
+term screen-256color
