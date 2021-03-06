@@ -1,0 +1,12 @@
+[user]
+	name = Omri Mallis
+	email = omri@securingsam.com
+[alias]
+	co = checkout
+	st = status
+	com = commit -v
+	br = branch
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	dif = diff
+	difc = diff --cached
+	amend = commit -v --amend
