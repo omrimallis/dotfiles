@@ -193,3 +193,8 @@ endif
 " Use pathogen to allow putting each plugin in seperate directory under
 " ~/.vim/bundle
 call pathogen#infect()
+
+
+let g:solarized_termcolors=256
+colorscheme solarized
+set background=dark
