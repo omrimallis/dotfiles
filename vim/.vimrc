@@ -95,6 +95,9 @@ set shiftwidth=4
 set tabstop=4
 set expandtab
 
+" Select last changed (or pasted) text
+nnoremap gp `[v`]
+
 """""""""""""""""""""""""""""""""""""""""""""""""""
 " => Vim
 """""""""""""""""""""""""""""""""""""""""""""""""""
