@@ -2,14 +2,14 @@
 	path = vim/.vim/pack/plugins/start/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim
 [submodule "vim/.vim/pack/pluging/start/vim-colors-solarized"]
-	path = vim/.vim/pack/pluging/start/vim-colors-solarized
+	path = vim/.vim/pack/plugins/start/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized
 [submodule "vim/.vim/pack/pluging/start/ultisnips"]
-	path = vim/.vim/pack/pluging/start/ultisnips
+	path = vim/.vim/pack/plugins/start/ultisnips
 	url = https://github.com/SirVer/ultisnips
 [submodule "vim/.vim/pack/pluging/start/vim-snippets"]
-	path = vim/.vim/pack/pluging/start/vim-snippets
+	path = vim/.vim/pack/plugins/start/vim-snippets
 	url = https://github.com/honza/vim-snippets
 [submodule "vim/.vim/pack/pluging/start/vim-fugitive"]
-	path = vim/.vim/pack/pluging/start/vim-fugitive
+	path = vim/.vim/pack/plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
