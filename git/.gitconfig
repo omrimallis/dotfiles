@@ -10,3 +10,4 @@
 	dif = diff
 	difc = diff --cached
 	amend = commit -v --amend
+    sw = switch

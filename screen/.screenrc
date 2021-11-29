@@ -20,7 +20,7 @@ hardstatus alwayslastline
 hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
 
 # Default shell is bash
-shell bash
+shell /bin/bash
 
 termcapinfo xterm* ti@:te@
 
