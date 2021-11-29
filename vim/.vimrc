@@ -190,9 +190,10 @@ endif
 """""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plugins
 """""""""""""""""""""""""""""""""""""""""""""""""""
+" Note: Pathogen is not needed anymore due to Vim 8's new native plugin manager
 " Use pathogen to allow putting each plugin in seperate directory under
 " ~/.vim/bundle
-call pathogen#infect()
+" call pathogen#infect()
 
 
 let g:solarized_termcolors=256
