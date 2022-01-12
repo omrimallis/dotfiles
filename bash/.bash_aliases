@@ -1,3 +1,6 @@
+# Disable Ctrl+S in Bash
+stty -ixon
+
 # Calculator. Stolen from somewhere in StackOverflow. Use as follows:
 # c 1+1
 # c '2^(1/2)'
