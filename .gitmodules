@@ -13,3 +13,6 @@
 [submodule "vim/.vim/pack/pluging/start/vim-fugitive"]
 	path = vim/.vim/pack/plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
+[submodule "vim/.vim/pack/plugins/start/rust.vim"]
+	path = vim/.vim/pack/plugins/start/rust.vim
+	url = https://github.com/rust-lang/rust.vim
